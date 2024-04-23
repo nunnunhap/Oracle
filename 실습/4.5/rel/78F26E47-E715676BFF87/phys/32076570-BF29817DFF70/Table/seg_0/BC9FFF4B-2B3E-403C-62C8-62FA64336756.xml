@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CART" directorySegmentName="seg_0" id="BC9FFF4B-2B3E-403C-62C8-62FA64336756">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:38 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<schemaObject>166B573F-4CB5-CAD7-8E62-863EC19AED53</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BA1B14CD-6433-8858-681F-204F70CE8A9C</segment>
+<tableSpace>BE9C9BF9-00A4-61DF-21C5-E64878221628</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PRODNUM" id="09BEE386-AEFE-E8C0-F4CE-217452A6133D">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:38 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CARTNUM" id="1735A8DA-BAD9-2B81-102E-77E709039179">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:38 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="244D2F01-D3B8-68FA-0850-6CF4ED597D97">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:38 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="QUANTITY" id="2A767C63-9A14-78EC-D4F3-A8B100FF1118">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:38 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RESULT" id="52E2C257-1B4A-BFA5-F0BC-F0D84351D2C6">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:38 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="INDATE" id="BD8A07A9-1B2C-FD59-4C45-743788221740">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:38 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007101" id="222A777F-7E43-E5D6-F06F-FC295604348C">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:38 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007100" id="3B29F457-E48B-6A9E-A5A5-1DCA9E19A1B4">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:38 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CART_PK" id="74C2CF29-19A4-A714-4EF3-F3C6920537C4">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:38 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<schemaObject>166B573F-4CB5-CAD7-8E62-863EC19AED53</schemaObject>
+<segment>99C63518-46C0-16AC-8BEE-76448DB8955F</segment>
+<tableSpace>BE9C9BF9-00A4-61DF-21C5-E64878221628</tableSpace>
+<indexSegment>99C63518-46C0-16AC-8BEE-76448DB8955F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

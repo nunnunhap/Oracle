@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BBF1993E-D464-F695-2DE3-2E4E094D377B" schemaObject="166B573F-4CB5-CAD7-8E62-863EC19AED53" name="ADMIN">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>SQLDB</sourceObjSchema>
+<sourceObjName>ADMIN</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:19 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="4834AF47-A2E4-1546-38F7-69F5ED704C6E">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>ADMIN</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:19 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PWD" id="8E020EDE-0825-FE5C-4553-75CD89DEF3A6">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>ADMIN</sourceObjSchema>
+<sourceObjName>PWD</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:19 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="19B01FB3-0646-614A-C286-92A834D98663">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>ADMIN</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:19 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="A7288F6D-EDD5-C622-EA68-C6BEEDE646CA">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>ADMIN</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:19 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="029EAF9A-6398-76AF-BE47-7A5575C176FB">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>ADMIN</sourceObjSchema>
+<sourceObjName>PHONE</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:19 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD0CF8AD-0EDA-5FF6-D2B5-B74065E43217" schemaObject="166B573F-4CB5-CAD7-8E62-863EC19AED53" name="ADMIN_PK">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>SQLDB</sourceObjSchema>
+<sourceObjName>SYS_C007098</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:19 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4834AF47-A2E4-1546-38F7-69F5ED704C6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="21556104-C772-9104-0CB9-6D2AE350E4D0" name="SQLDB" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.SchemaObject" propertyParentId="B5CCC410-6D14-7FE7-3384-1BDB1851800E" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="98B3E0C7-B832-CCCB-52AE-F056DD0D0A06" name="DEPT" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="B5CCC410-6D14-7FE7-3384-1BDB1851800E" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="2031C9E5-2BDB-3FA1-6278-77FD85FC4933" name="EMP" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="B5CCC410-6D14-7FE7-3384-1BDB1851800E" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="9B22A705-D8E2-3E22-9715-4D9A22FEA06B" name="SYS_C007076" seqName="seg_0" containerID="2031C9E5-2BDB-3FA1-6278-77FD85FC4933" refContainerID="98B3E0C7-B832-CCCB-52AE-F056DD0D0A06" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="B5CCC410-6D14-7FE7-3384-1BDB1851800E" propertySourceId="98B3E0C7-B832-CCCB-52AE-F056DD0D0A06" propertyTargetId="2031C9E5-2BDB-3FA1-6278-77FD85FC4933"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B55E8A16-B4A3-46DE-3037-C147B55C9AA7" schemaObject="166B573F-4CB5-CAD7-8E62-863EC19AED53" name="ORDER_DETAIL">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>SQLDB</sourceObjSchema>
+<sourceObjName>ORDER_DETAIL</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:53 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ODNUM" id="E0ECBC00-C81D-BB58-6F07-5555B764C1C5">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>ORDER_DETAIL</sourceObjSchema>
+<sourceObjName>ODNUM</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:53 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDERNUM" id="DD7D4D18-FAA7-9636-4246-AC0E85DDEDD4">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>ORDER_DETAIL</sourceObjSchema>
+<sourceObjName>ORDERNUM</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:53 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16703A7C-0A7F-1348-41AB-2C0EF8BE797D" referredColumn="B662855D-F17A-7226-F5C3-3ECA7E5E92C3"/>
+</associations>
+</Column>
+<Column name="PRODNUM" id="B93009EA-461A-F803-36D8-803520868A5F">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>ORDER_DETAIL</sourceObjSchema>
+<sourceObjName>PRODNUM</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:53 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32917EDF-CD83-73E9-1EA2-654B87ABC749" referredColumn="8FE1312C-D4A1-F61D-2FE4-787E52F0FB9A"/>
+</associations>
+</Column>
+<Column name="QUANTITY" id="5FA6AD2F-AC27-986E-DCA9-CB4A2B5CB55D">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>ORDER_DETAIL</sourceObjSchema>
+<sourceObjName>QUANTITY</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:53 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESULT" id="4F6F5391-1C5E-6624-D154-B22867814C49">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>ORDER_DETAIL</sourceObjSchema>
+<sourceObjName>RESULT</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:53 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>1 -- 처리유무(배송 전: 1, 배송 후: 2)
+--    ORDER_DETAIL_SEQ    SEQUENCE -- 주문처리 번호 생성</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B1D1AAA-AFF2-2191-8CE2-B97042CFECC1" schemaObject="166B573F-4CB5-CAD7-8E62-863EC19AED53" name="ORDER_DETAIL_PK">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>SQLDB</sourceObjSchema>
+<sourceObjName>SYS_C007104</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:53 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0ECBC00-C81D-BB58-6F07-5555B764C1C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1935C0C-5AE2-D7DE-2CBB-BBDA0ED65C5D" name="SYS_C007105">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:54 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD7D4D18-FAA7-9636-4246-AC0E85DDEDD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B2656FF-1B59-7F83-8705-149274EC2F01" name="SYS_C007106">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:54 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B93009EA-461A-F803-36D8-803520868A5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,4 @@
+CREATE USER jspuser IDENTIFIED BY jspuser;
+
+GRANT CONNECT, RESOURCE TO jspuser;
+

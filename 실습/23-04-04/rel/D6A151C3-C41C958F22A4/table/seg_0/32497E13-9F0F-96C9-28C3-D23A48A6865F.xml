@@ -1,0 +1,212 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32497E13-9F0F-96C9-28C3-D23A48A6865F" schemaObject="96E04BCF-A888-C667-5B23-F9AEC2B4592B" name="EMP_CONST">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>SQLDB</sourceObjSchema>
+<sourceObjName>EMP_CONST</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 08:29:18 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPNO" id="169317D7-E095-64D3-4A4A-43601BA0EB0C">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>EMP_CONST</sourceObjSchema>
+<sourceObjName>EMPNO</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 08:29:18 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENAME" id="36755286-17FA-20C9-9E96-DCD2E0140EA6">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>EMP_CONST</sourceObjSchema>
+<sourceObjName>ENAME</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 08:29:18 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>EMPCONST_ENAME_NN</notNullConstraintName>
+</Column>
+<Column name="JOB" id="73950890-05E1-6152-2698-DEC79B81AE13">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>EMP_CONST</sourceObjSchema>
+<sourceObjName>JOB</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 08:29:18 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEL" id="E88E31CB-E8FE-11A6-5544-93F6D8DEB803">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>EMP_CONST</sourceObjSchema>
+<sourceObjName>TEL</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 08:29:18 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HIREDATE" id="DE3DFA29-16A7-3795-C537-87402D130843">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>EMP_CONST</sourceObjSchema>
+<sourceObjName>HIREDATE</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 08:29:18 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SAL" id="71212B3A-33C2-F357-42BF-B308017B92D8">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>EMP_CONST</sourceObjSchema>
+<sourceObjName>SAL</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 08:29:18 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+<constraintName>EMPCONST_SAL_CHK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1000</beginValue>
+<endValue>9999</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="COMM" id="3D361459-6727-08E7-3BE4-10FF715DF923">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>EMP_CONST</sourceObjSchema>
+<sourceObjName>COMM</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 08:29:18 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPTNO" id="D51FAFA1-0C65-A89A-E6B6-6011637DB8A4">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>EMP_CONST</sourceObjSchema>
+<sourceObjName>DEPTNO</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 08:29:18 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17D36F4B-6FA4-6F29-F8EB-1F1652C9505B" referredColumn="1EFD9F98-D918-B850-BEFA-0E9CB112F369"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="630AF272-4EE3-8B8A-2236-E34AB558223B" name="EMPCONST_EMPNO_PK">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>SQLDB</sourceObjSchema>
+<sourceObjName>EMPCONST_EMPNO_PK</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 08:29:18 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="169317D7-E095-64D3-4A4A-43601BA0EB0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F92DDC8-D9D8-74B7-02B7-015992B4E408" name="EMPCONST_TEL_UNQ">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>SQLDB</sourceObjSchema>
+<sourceObjName>EMPCONST_TEL_UNQ</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 08:29:18 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E88E31CB-E8FE-11A6-5544-93F6D8DEB803"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D7422EF-7DC1-F1C4-F5E2-25BD5A767DBF" schemaObject="96E04BCF-A888-C667-5B23-F9AEC2B4592B" name="EMPCONST_EMPNO_PK">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>SQLDB</sourceObjSchema>
+<sourceObjName>EMPCONST_EMPNO_PK</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 08:29:18 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="169317D7-E095-64D3-4A4A-43601BA0EB0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1063FDA6-2B62-5371-A7C6-38B88A2501B1" schemaObject="96E04BCF-A888-C667-5B23-F9AEC2B4592B" name="EMPCONST_TEL_UNQ">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>SQLDB</sourceObjSchema>
+<sourceObjName>EMPCONST_TEL_UNQ</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 08:29:18 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E88E31CB-E8FE-11A6-5544-93F6D8DEB803"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35C9EF63-BBC3-ECFF-C6FB-CFFE38A6259A" name="EMPCONST_DEPTNO_FK">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 08:29:18 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D51FAFA1-0C65-A89A-E6B6-6011637DB8A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="DEPT" directorySegmentName="seg_0" id="98B3E0C7-B832-CCCB-52AE-F056DD0D0A06">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 07:13:19 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+<schemaObject>21556104-C772-9104-0CB9-6D2AE350E4D0</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>03AB2503-7180-063F-EEE3-30C120960C3A</segment>
+<tableSpace>D2054627-75B2-5E8C-B55B-2D016FB95DD2</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="D_CODE" id="0E73AFDC-F0FC-6259-29F1-049B05E72CC8">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 07:13:19 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="D_NAME" id="460BA1EC-51EF-45B4-B32E-7668B5EBC344">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 07:13:19 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DEPT_PK" id="96026A4B-BE75-979A-C79A-461BA13720A1">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 07:13:19 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+<schemaObject>21556104-C772-9104-0CB9-6D2AE350E4D0</schemaObject>
+<segment>E3356616-15DF-DB90-D7BE-9E19B0B409B7</segment>
+<tableSpace>D2054627-75B2-5E8C-B55B-2D016FB95DD2</tableSpace>
+<indexSegment>E3356616-15DF-DB90-D7BE-9E19B0B409B7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4B5520B-0D9F-F3B0-E411-0D7BB790E91C" schemaObject="166B573F-4CB5-CAD7-8E62-863EC19AED53" name="QNA">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>SQLDB</sourceObjSchema>
+<sourceObjName>QNA</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:46:00 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="QSEQ" id="5B49A4CF-B878-E23F-20FF-0F28DAA076D4">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>QNA</sourceObjSchema>
+<sourceObjName>QSEQ</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:46:00 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUBJECT" id="9F35C13F-EEA9-3D9B-D1D4-995E5235AEC8">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>QNA</sourceObjSchema>
+<sourceObjName>SUBJECT</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:46:00 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTENT" id="A2DC4FFC-0AEE-07B3-AE93-1AC1535B5096">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>QNA</sourceObjSchema>
+<sourceObjName>CONTENT</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:46:00 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPLY" id="D71214D9-B506-E4D1-B76D-41F2EB9826D4">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>QNA</sourceObjSchema>
+<sourceObjName>REPLY</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:46:00 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="6F7359D9-A00C-AB06-606C-4902C076390F">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>QNA</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:46:00 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA42DE3C-9562-277F-EAA0-A3CEC6D0B479" referredColumn="40887E5F-D212-B302-63FE-40F42BEB34D6"/>
+</associations>
+</Column>
+<Column name="REP" id="FD03D2A4-AFF5-3D68-E2BB-55AD16AA933E">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>QNA</sourceObjSchema>
+<sourceObjName>REP</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:46:00 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INDATE" id="E35A3834-5565-8CAA-E6FB-0BB7D4DC0013">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>QNA</sourceObjSchema>
+<sourceObjName>INDATE</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:46:00 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ECEED5E3-05DE-930F-3CFC-FCC1AFED7C40" schemaObject="166B573F-4CB5-CAD7-8E62-863EC19AED53" name="QNA_PK">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>SQLDB</sourceObjSchema>
+<sourceObjName>SYS_C007107</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:46:00 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B49A4CF-B878-E23F-20FF-0F28DAA076D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E92EC351-4C03-271F-2AE2-6ECA2A3C2FC0" name="SYS_C007108">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:46:00 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F7359D9-A00C-AB06-606C-4902C076390F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

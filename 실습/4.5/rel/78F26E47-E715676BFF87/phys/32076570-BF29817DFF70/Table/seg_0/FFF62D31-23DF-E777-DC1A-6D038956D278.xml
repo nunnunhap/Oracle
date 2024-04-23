@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="USERS" directorySegmentName="seg_0" id="FFF62D31-23DF-E777-DC1A-6D038956D278">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:44:47 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<schemaObject>166B573F-4CB5-CAD7-8E62-863EC19AED53</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BA1B14CD-6433-8858-681F-204F70CE8A9C</segment>
+<tableSpace>BE9C9BF9-00A4-61DF-21C5-E64878221628</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ADDRESS" id="327B5826-B95B-9C4B-3418-E8CAD028F1AC">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:44:47 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGDATE" id="3FB86FE7-6F5B-FED7-2E50-33CF45446369">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:44:47 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="ID" id="40887E5F-D212-B302-63FE-40F42BEB34D6">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:44:47 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PHONE" id="799960C5-B97D-C783-8A09-00AE9CFB748E">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:44:47 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="7C3CB9C0-392C-EA2E-680E-025502BA6484">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:44:47 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PWD" id="99A266A1-FA9A-EE13-F414-189D6E383FEE">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:44:47 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAIL" id="A17A49ED-AAFC-82D9-1646-7D8DE20E6551">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:44:47 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USEYN" id="BFE6952E-EC1A-3C86-83D7-04AE0AB2FE72">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:44:47 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="ZIP_CODE" id="E4D7A590-16A8-9F5B-3392-602E89F8557C">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:44:47 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="USERS_PK" id="9BEE626B-FA09-29BD-54EC-6E0471BF3572">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:44:47 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<schemaObject>166B573F-4CB5-CAD7-8E62-863EC19AED53</schemaObject>
+<segment>99C63518-46C0-16AC-8BEE-76448DB8955F</segment>
+<tableSpace>BE9C9BF9-00A4-61DF-21C5-E64878221628</tableSpace>
+<indexSegment>99C63518-46C0-16AC-8BEE-76448DB8955F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

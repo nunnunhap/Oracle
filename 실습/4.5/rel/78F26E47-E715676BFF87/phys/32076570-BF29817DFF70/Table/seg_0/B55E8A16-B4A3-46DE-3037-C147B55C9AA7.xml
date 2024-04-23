@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ORDER_DETAIL" directorySegmentName="seg_0" id="B55E8A16-B4A3-46DE-3037-C147B55C9AA7">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:53 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<schemaObject>166B573F-4CB5-CAD7-8E62-863EC19AED53</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BA1B14CD-6433-8858-681F-204F70CE8A9C</segment>
+<tableSpace>BE9C9BF9-00A4-61DF-21C5-E64878221628</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="RESULT" id="4F6F5391-1C5E-6624-D154-B22867814C49">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:53 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<defaultValue>1 -- 처리유무(배송 전: 1, 배송 후: 2)
+--    ORDER_DETAIL_SEQ    SEQUENCE -- 주문처리 번호 생성</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="QUANTITY" id="5FA6AD2F-AC27-986E-DCA9-CB4A2B5CB55D">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:53 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRODNUM" id="B93009EA-461A-F803-36D8-803520868A5F">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:53 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDERNUM" id="DD7D4D18-FAA7-9636-4246-AC0E85DDEDD4">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:53 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ODNUM" id="E0ECBC00-C81D-BB58-6F07-5555B764C1C5">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:53 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007106" id="5B2656FF-1B59-7F83-8705-149274EC2F01">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:54 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007105" id="E1935C0C-5AE2-D7DE-2CBB-BBDA0ED65C5D">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:54 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ORDER_DETAIL_PK" id="1B1D1AAA-AFF2-2191-8CE2-B97042CFECC1">
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-05 05:45:54 UTC</createdTime>
+<ownerDesignName>4.5</ownerDesignName>
+<schemaObject>166B573F-4CB5-CAD7-8E62-863EC19AED53</schemaObject>
+<segment>99C63518-46C0-16AC-8BEE-76448DB8955F</segment>
+<tableSpace>BE9C9BF9-00A4-61DF-21C5-E64878221628</tableSpace>
+<indexSegment>99C63518-46C0-16AC-8BEE-76448DB8955F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

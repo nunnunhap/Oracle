@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D886EA7A-626E-E971-CE96-C0D99DACB7D9" schemaObject="96E04BCF-A888-C667-5B23-F9AEC2B4592B" name="DEPT_CONST">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>SQLDB</sourceObjSchema>
+<sourceObjName>DEPT_CONST</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 08:29:18 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DEPTNO" id="1EFD9F98-D918-B850-BEFA-0E9CB112F369">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>DEPT_CONST</sourceObjSchema>
+<sourceObjName>DEPTNO</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 08:29:18 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DNAME" id="763FAE34-4558-9D57-137E-5A01B4263A82">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>DEPT_CONST</sourceObjSchema>
+<sourceObjName>DNAME</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 08:29:18 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 BYTE</dataTypeSize>
+<ownDataTypeParameters>14 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOC" id="E05795A2-7CDC-E57F-994D-8C2804AEB26E">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>DEPT_CONST</sourceObjSchema>
+<sourceObjName>LOC</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 08:29:18 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>13 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>DEPTCONST_LOC_NN</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E21837F-252B-4433-2B14-CABF36762B35" name="DEPTCONST_DEPTNO_PK">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>SQLDB</sourceObjSchema>
+<sourceObjName>DEPTCONST_DEPTNO_PK</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 08:29:18 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EFD9F98-D918-B850-BEFA-0E9CB112F369"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CD7DB39-40A0-EBA6-8E30-3CEB2F04EB9F" name="DEPTCONST_DNAME_UNQ">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>SQLDB</sourceObjSchema>
+<sourceObjName>DEPTCONST_DNAME_UNQ</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 08:29:18 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="763FAE34-4558-9D57-137E-5A01B4263A82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81D6189C-136A-7176-07F9-FADC8169E9B7" schemaObject="96E04BCF-A888-C667-5B23-F9AEC2B4592B" name="DEPTCONST_DEPTNO_PK">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>SQLDB</sourceObjSchema>
+<sourceObjName>DEPTCONST_DEPTNO_PK</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 08:29:18 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EFD9F98-D918-B850-BEFA-0E9CB112F369"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94F9A3BA-6FF2-8236-4BAF-8ECF9AA2D790" schemaObject="96E04BCF-A888-C667-5B23-F9AEC2B4592B" name="DEPTCONST_DNAME_UNQ">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>SQLDB</sourceObjSchema>
+<sourceObjName>DEPTCONST_DNAME_UNQ</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 08:29:18 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="763FAE34-4558-9D57-137E-5A01B4263A82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

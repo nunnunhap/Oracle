@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="98B3E0C7-B832-CCCB-52AE-F056DD0D0A06" schemaObject="21556104-C772-9104-0CB9-6D2AE350E4D0" name="DEPT">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>SQLDB</sourceObjSchema>
+<sourceObjName>DEPT</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 07:13:19 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="D_CODE" id="0E73AFDC-F0FC-6259-29F1-049B05E72CC8">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>DEPT</sourceObjSchema>
+<sourceObjName>D_CODE</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 07:13:19 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="D_NAME" id="460BA1EC-51EF-45B4-B32E-7668B5EBC344">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>DEPT</sourceObjSchema>
+<sourceObjName>D_NAME</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 07:13:19 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96026A4B-BE75-979A-C79A-461BA13720A1" schemaObject="21556104-C772-9104-0CB9-6D2AE350E4D0" name="DEPT_PK">
+<sourceConnName>%ED%95%99%EC%8A%B5%EC%9A%A9%EA%B3%84%EC%A0%95</sourceConnName>
+<sourceObjSchema>SQLDB</sourceObjSchema>
+<sourceObjName>SYS_C007070</sourceObjName>
+<createdBy>i7C-06</createdBy>
+<createdTime>2024-04-04 07:13:19 UTC</createdTime>
+<ownerDesignName>23-04-04</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E73AFDC-F0FC-6259-29F1-049B05E72CC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
